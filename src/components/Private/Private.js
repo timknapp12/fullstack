@@ -30,7 +30,7 @@ class Private extends Component {
             <p>Email: { user ? user.email : null }</p>
             <p>ID: { user ? user.auth_id : null }</p>
             <h4>Available balance: { user ? '$' + this.bankBalance() : null } </h4>
-            <a href='http://localhost:3000/logout'><button>Log out</button></a>
+            <a href='http://localhost:3030/logout'><button>Log out</button></a>
         </div> 
         )
     }
